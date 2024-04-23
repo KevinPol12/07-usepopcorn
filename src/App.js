@@ -6,7 +6,7 @@ import { useKeyPress } from "./useKeyPress";
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
-const KEY = "f952d5ad";
+const KEY = "f952d5ad"; //We should never leave this key here
 
 export default function App() {
   const [query, setQuery] = useState("");
